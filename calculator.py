@@ -5,6 +5,8 @@ class Calculator:
     def execute(self, operation, a, b):
         if operation == '+':
             basicarithmetic.add(a, b)
+        if operation == 'tan':
+            print(trigonometry.tan(a))
         elif operation == '-':
             basicarithmetic.subtract(a, b)
         elif operation == '*':
