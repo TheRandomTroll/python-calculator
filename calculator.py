@@ -1,5 +1,5 @@
 import basicarithmetic as basicarithmetic
-
+import trigonometry as trigonometry
 
 class Calculator:
     def execute(self, operation, a, b):
