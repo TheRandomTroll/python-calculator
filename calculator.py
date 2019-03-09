@@ -4,15 +4,24 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-class Calculator:
-    def __init__(self):
-        print("Hello world")
+def multiply(a, b):
+    return a * b
 
+def divide(a, b):
+    return a / b
+
+class Calculator:
     def execute(self, operation, a, b):
         if operation == '+':
-            print(add(a, b))
+            add(a, b)
         elif operation == '-':
-            print(subtract(a, b))
+            subtract(a, b)
+        elif operation == '*':
+            multiply(a, b)
+        elif(operation == '/'):
+            divide(a, b)
+
+
 
 
 
